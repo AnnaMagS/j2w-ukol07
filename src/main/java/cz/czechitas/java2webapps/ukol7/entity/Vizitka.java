@@ -45,7 +45,6 @@ public class Vizitka {
     @Length(max = 100)
     private String web;
 
-    /*private String celaAdresa;*/
 
     // Konstruktory
     public Vizitka(){};
@@ -60,7 +59,6 @@ public class Vizitka {
         this.email = email;
         this.telefon = telefon;
         this.web = web;
-        /*this.celaAdresa = ulice+" "+psc+" "+obec;*/
     }
 
     public Integer getId() {
