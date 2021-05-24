@@ -43,7 +43,6 @@ public class VizitkaController {
     @PostMapping("/nova")
     public Object pridat(@ModelAttribute("vizitka") @Valid Vizitka vizitka, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
-            System.out.println("chyba");
             return "formular";
         }
         vizitka.setId(null);
