@@ -133,7 +133,7 @@ public class Vizitka {
         this.web = web;
     }
 
-    public String getCelaAdresa(){
+    public String celaAdresa(){
         return ulice+" "+psc+" "+obec;
     }
 }
